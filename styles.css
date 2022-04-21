@@ -6,26 +6,31 @@
 
 main {
     background-color: hsl(185, 75%, 39%);
-    height: 100vh;  
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bg {
+.bg-1 {
+    background-image: url(images/bg-pattern-top.svg);
     position: absolute;
     top: 285px;
     bottom: -27px;
-    right: 71px;
-    left: 801px;
+    right: -25px;
+    left: 830px;
 }
 
 .bg-2 {
+    background-image: url(images/bg-pattern-bottom.svg);
     position: absolute;
-    top: -463px;
-    right: 37px;
-    left: -230px;
+    transform: rotate(180deg);
+    left: -0.4px;
+    width: 662px;
+    height: 635px;
+    top: -28.1px;
 }
+
 
 .container {
     display: flex;
